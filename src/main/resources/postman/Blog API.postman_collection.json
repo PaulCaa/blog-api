@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "46626688-e0f8-45cb-b4cf-966f5a608124",
+		"name": "Blog API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authors",
+			"item": [
+				{
+					"name": "List All Authors",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "request_id",
+								"value": "20200814-152108",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:9623/v1/blog/author/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9623",
+							"path": [
+								"v1",
+								"blog",
+								"author",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Author By Id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "request_id",
+								"value": "20200814-152108",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:9623/v1/blog/author?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9623",
+							"path": [
+								"v1",
+								"blog",
+								"author"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
