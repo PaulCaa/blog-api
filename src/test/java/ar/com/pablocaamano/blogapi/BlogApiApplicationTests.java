@@ -1,7 +1,7 @@
 package ar.com.pablocaamano.blogapi;
 
-import ar.com.pablocaamano.blogapi.model.Author;
-import ar.com.pablocaamano.blogapi.repository.AuthorRepository;
+import ar.com.pablocaamano.blog.model.Author;
+import ar.com.pablocaamano.blog.repository.AuthorRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;

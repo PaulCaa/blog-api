@@ -1,4 +1,4 @@
-package ar.com.pablocaamano.blogapi.utils;
+package ar.com.pablocaamano.blog.utils;
 
 import ar.com.pablocaamano.commons.rest.Error;
 

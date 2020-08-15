@@ -1,4 +1,4 @@
-package ar.com.pablocaamano.blogapi.exception.http;
+package ar.com.pablocaamano.blog.exception.http;
 
 import ar.com.pablocaamano.commons.exception.CommonException;
 import ar.com.pablocaamano.commons.exception.http.ICommonHttpException;

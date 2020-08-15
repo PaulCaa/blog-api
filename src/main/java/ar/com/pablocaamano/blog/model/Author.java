@@ -1,4 +1,4 @@
-package ar.com.pablocaamano.blogapi.model;
+package ar.com.pablocaamano.blog.model;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package ar.com.pablocaamano.blogapi;
+package ar.com.pablocaamano.blog;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +12,7 @@ public class BlogApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BlogApiApplication.class, args);
-		logger.info("[ blog-api ] - Application is now running...");
+		logger.info("[blog-api] - Application is now running...");
 	}
 
 }

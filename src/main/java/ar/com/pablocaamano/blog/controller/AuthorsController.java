@@ -1,8 +1,8 @@
-package ar.com.pablocaamano.blogapi.controller;
+package ar.com.pablocaamano.blog.controller;
 
-import ar.com.pablocaamano.blogapi.model.Author;
-import ar.com.pablocaamano.blogapi.service.AuthorService;
-import ar.com.pablocaamano.blogapi.utils.ApiUtils;
+import ar.com.pablocaamano.blog.model.Author;
+import ar.com.pablocaamano.blog.service.AuthorService;
+import ar.com.pablocaamano.blog.utils.ApiUtils;
 import ar.com.pablocaamano.commons.builder.ResponseBuilder;
 import ar.com.pablocaamano.commons.exception.http.CommonHttpException;
 import ar.com.pablocaamano.commons.rest.Error;

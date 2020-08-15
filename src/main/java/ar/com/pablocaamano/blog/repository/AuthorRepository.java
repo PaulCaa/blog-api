@@ -1,8 +1,7 @@
-package ar.com.pablocaamano.blogapi.repository;
+package ar.com.pablocaamano.blog.repository;
 
-import ar.com.pablocaamano.blogapi.model.Author;
+import ar.com.pablocaamano.blog.model.Author;
 import org.springframework.data.repository.CrudRepository;
-
 import java.util.List;
 import java.util.Optional;
 

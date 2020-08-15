@@ -1,9 +1,9 @@
-package ar.com.pablocaamano.blogapi.service;
+package ar.com.pablocaamano.blog.service;
 
-import ar.com.pablocaamano.blogapi.exception.BlogRepositoryException;
-import ar.com.pablocaamano.blogapi.model.Author;
-import ar.com.pablocaamano.blogapi.repository.AuthorRepository;
-import ar.com.pablocaamano.blogapi.utils.ApiUtils;
+import ar.com.pablocaamano.blog.exception.BlogRepositoryException;
+import ar.com.pablocaamano.blog.model.Author;
+import ar.com.pablocaamano.blog.repository.AuthorRepository;
+import ar.com.pablocaamano.blog.utils.ApiUtils;
 import javafx.application.Application;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
